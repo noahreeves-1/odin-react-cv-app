@@ -1,13 +1,133 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.header-container {
+  background-color: rgb(13, 38, 130);
+  color: white;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+}
+
+.personal-info {
+  display: grid;
+  justify-content: start;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.prof-info {
+  display: grid;
+  justify-content: start;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.edu-info {
+  display: grid;
+  justify-content: start;
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+.sample-cv-wrapper {
+  display: block;
+  margin: auto;
+  width: 800px;
+  max-width: 800px;
+  height: 1130px;
+  max-height: 1130px;
+  background-color: lightgrey;
+}
+
+.cv-header-contact-wrapper {
+  display: flex;
+  justify-content: space-evenly;
+  padding-bottom: 1em;
+}
+
+.cv-header-name {
+  font-size: 3rem;
+  font-weight: 500;
+  padding-top: 60px;
+  padding-bottom: 40px;
+}
+
+.cv-section-title {
+  display: flex;
+  padding-left: 60px;
+}
+
+.prof-info-wrapper {
+  display: block;
+  padding-bottom: 20px;
+}
+
+.prof-exp-item-header {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 80px;
+  padding-right: 80px;
+  padding-bottom: 10px;
+}
+
+.org-title {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.org-name {
+  font-weight: 800;
+}
+
+.job-detail-exp {
+  padding: 0px 80px;
+  text-align: left;
+}
+
+.education-section-title {
+  text-align: left;
+  margin-left: 60px;
+}
+
+.edu-exp-item-wrapper {
+  margin: 40px 0px;
+}
+
+.edu-exp-item-header {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 80px;
+  text-align: left;
+}
+
+.school-name {
+  font-weight: 700;
+}
+
+.degree-name {
+  font-style: italic;
+}
+
+.edu-highlights {
+  text-align: left;
+  margin: 10px 80px;
+}
+
+.footer-container {
+  background-color: lightblue;
 }
